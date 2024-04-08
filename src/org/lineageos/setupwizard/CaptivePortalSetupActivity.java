@@ -136,7 +136,7 @@ public class CaptivePortalSetupActivity extends WrapperSubBaseActivity {
                             }
                         }));
                 intent.putExtra("status_bar_color",
-                        context.getResources().getColor(R.color.primary_dark));
+                        context.getResources().getColor(R.color.black));
                 intent.putExtra("action_bar_color", context.getResources().getColor(
                         R.color.primary_dark));
                 intent.putExtra("progress_bar_color", context.getResources().getColor(
